@@ -53,7 +53,7 @@ $flights = [
 // find the lowest price with math function min();
 $lowest = min($flights);
 
-// compare the code in airports array with the code in the lowest flight to get the name od the airport;
+// compare the code in airports array with the code in the lowest flight to get the name of the airport;
 foreach ($airports as $airport) {
     if ($airport['code'] == $lowest['code_departure']) {
         $departure_airport = $airport['name'];
